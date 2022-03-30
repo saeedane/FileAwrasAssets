@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Awras-Emir';
+    src: url('../web-fonts/Awras-Emir.woff2') format('woff2'),
+        url('../web-fonts/Awras-Emir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Awras-Emir';
+    src: url('../web-fonts/Awras-Emir.woff2') format('woff2'),
+        url('../web-fonts/Awras-Emir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Awras-Mhidi';
+    src: url('../web-fonts/KufyanArabic-Black.woff2') format('woff2'),
+        url('../web-fonts/KufyanArabic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Awras-Mhidi';
+    src: url('../web-fonts/KufyanArabic-Black.woff2') format('woff2'),
+        url('../web-fonts/KufyanArabic-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
