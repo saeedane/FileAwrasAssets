@@ -1,4 +1,3 @@
-js/lazyload.js
 ( function() { 'use strict';
   let images = document.querySelectorAll('img[data-src]');
               
