@@ -32,7 +32,7 @@ $(document).ready(function () {
         $("#audioPlayer").audioPlayer(), $(".fotorama").fotorama({ allowfullscreen: !0, nav: "thumbs", ratio: "800/600", thumbwidth: "87", thumbheight: "87", auto: !1 });
     });
 var swiper = new Swiper("#newsTopSlider", { autoplay: { delay: 5e3 }, navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" } });
-(swiper = new Swiper("#mostReadeSlider", {
+(swiper = new Swiper(".mostReadeSlider", {
     autoplay: { delay: 5e3 },
     slidesPerView: 4,
     spaceBetween: 50,
