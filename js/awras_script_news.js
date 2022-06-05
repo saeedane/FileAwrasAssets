@@ -50,9 +50,6 @@ var swiper = new Swiper("#newsTopSlider", { autoplay: { delay: 5e3 }, navigation
 (swiper = new Swiper("#tagsReadeSlider", {
     autoplay: { delay: 5e3 },
     slidesPerView: 4,
-    slidesPerGroup: 2,
-    loop: !1,
-    loopFillGroupWithBlank: !0,
     pagination: { el: ".swiper-pagination", clickable: true},
     breakpoints: { 320: { slidesPerView: 2, spaceBetween: 10 }, 575: { slidesPerView: 2, spaceBetween: 10 }, 768: { slidesPerView: 2 }, 991: { slidesPerView: 3 }, 1200: { slidesPerView: 4 } },
 })),
