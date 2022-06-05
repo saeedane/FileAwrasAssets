@@ -50,7 +50,6 @@ var swiper = new Swiper("#newsTopSlider", { autoplay: { delay: 5e3 }, navigation
 (swiper = new Swiper("#tagsReadeSlider", {
     autoplay: { delay: 5e3 },
     slidesPerView: 4,
-    spaceBetween: 50,
     slidesPerGroup: 2,
     loop: !1,
     loopFillGroupWithBlank: !0,
