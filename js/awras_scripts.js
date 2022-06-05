@@ -47,17 +47,14 @@ var swiper = new Swiper("#newsTopSlider", { autoplay: { delay: 5e3 }, navigation
     breakpoints: { 320: { slidesPerView: 2, spaceBetween: 10 }, 575: { slidesPerView: 2, spaceBetween: 10 }, 768: { slidesPerView: 2 }, 991: { slidesPerView: 3 }, 1200: { slidesPerView: 4 } },
 })),
 
-(swiper = new Swiper("#tagsReadeSlider", {
+(swiper = new Swiper(".tagsReadeSlider", {
     autoplay: { delay: 5e3 },
-    observer: true,
-    observeParents: true,
-    parallax: true,
     slidesPerView: 4,
     spaceBetween: 50,
     slidesPerGroup: 2,
     loop: !1,
     loopFillGroupWithBlank: !0,
-    pagination: { el: ".swiper-pagination", clickable: !0 },
+    pagination: { el: ".swiper-pagination", clickable: true },
     breakpoints: { 320: { slidesPerView: 2, spaceBetween: 10 }, 575: { slidesPerView: 2, spaceBetween: 10 }, 768: { slidesPerView: 2 }, 991: { slidesPerView: 3 }, 1200: { slidesPerView: 4 } },
 })),
     (swiper = new Swiper("#IllusStorSlider", {
