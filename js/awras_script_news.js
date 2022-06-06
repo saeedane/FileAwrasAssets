@@ -47,11 +47,7 @@ var swiper = new Swiper("#newsTopSlider", { autoplay: { delay: 5e3 }, navigation
     breakpoints: { 320: { slidesPerView: 2, spaceBetween: 10 }, 575: { slidesPerView: 2, spaceBetween: 10 }, 768: { slidesPerView: 2 }, 991: { slidesPerView: 3 }, 1200: { slidesPerView: 4 } },
 })),
 
-(swiper = new Swiper("#tagsReadeSlider", {
-    slidesPerView: 4,
-    pagination: { el: ".swiper-pagination", clickable: true},
-    breakpoints: { 320: { slidesPerView: 2, spaceBetween: 10 }, 575: { slidesPerView: 2, spaceBetween: 10 }, 768: { slidesPerView: 2 }, 991: { slidesPerView: 3 }, 1200: { slidesPerView: 4 } },
-})),
+
     (swiper = new Swiper("#IllusStorSlider", {
         slidesPerView: 4,
         spaceBetween: 50,
