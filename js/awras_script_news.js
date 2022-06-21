@@ -56,15 +56,3 @@ var swiper = new Swiper("#newsTopSlider", { autoplay: { delay: 5e3 }, navigation
         navigation: { nextEl: ".swiper-button-next", prevEl: ".swiper-button-prev" },
     })),
     (swiper = new Swiper(".mobileNewsSlider", { autoplay: { delay: 5e3 }, direction: "vertical", loop: !0, slidesPerView: 1, pagination: { el: ".swiper-pagination", clickable: !0 } }));
-   
-    var swiper2 = new Swiper(".swiper-gallery", {
-        loop: true,
-        spaceBetween: 10,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        thumbs: {
-          swiper: swiper,
-        },
-      });
